@@ -9,6 +9,6 @@ Students are expected to:
 Student Info
 =========================
 
-* Student Name: Trần Mạnh Duy
-* Student ID: 22bi13126
-* Student Group ID: Not-for-now
+* Student Name: Phạm Ngọc Lâm
+* Student ID: 22BI13240
+* Student Group ID: 12
