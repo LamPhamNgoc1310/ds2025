@@ -15,15 +15,15 @@ def main():
     client_socket, client_address = server_socket.accept()
     print(f"Connection with {client_address}")
 
-    fileName = 'sentfile.txt'
+    fileName = 'sent_file.txt'
     try:
         with open(fileName, 'rb') as file:
             while chunk := file.read(BUFFER_SIZE):
                 client_socket.sendall(chunk) # sending file to the client
             print(f"Reading {fileName}")
 
-    except Exception:
-        print(f"sending error: {Exception}")
+    except Exception as e:
+        print(f"sending error: {e}")
 
     client_socket.close()
     server_socket.close()
